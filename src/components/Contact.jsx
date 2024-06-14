@@ -83,16 +83,16 @@ function Contact() {
                                     border: "1px solid rgba(255, 255, 255, 0.125)",
                                     boxShadow: "rgba(23, 92, 230, 0.15) 0px 4px 10px",
                                 }}>
-                                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                                <span className="inline-block p-3 text-blue-500 rounded-full bg-gray-800">
                                     {method.icon}
                                 </span>
                                 <h2 className="mt-4 text-base font-medium text-white">{method.title}</h2>
-                                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">{method.description}</p>
-                                <a href={method.link} target='_blank' rel="noopener noreferrer" className="mt-2 text-sm text-blue-500 dark:text-blue-400">{method.contact}</a>
+                                <p className="mt-2 text-sm  text-gray-400">{method.description}</p>
+                                <a href={method.link} target='_blank' rel="noopener noreferrer" className="mt-2 text-sm text-blue-400">{method.contact}</a>
                             </div>
                         ))}
                     </div>
-                    <div className="p-4 py-6 rounded-lg dark:bg-gray-800 md:p-8 relative z-10">
+                    <div className="p-4 py-6 rounded-lg bg-gray-800 md:p-8 relative z-10">
                         <form ref={form} onSubmit={handleSubmit} className="z-20">
                             <div className="-mx-2 md:items-center md:flex">
                                 <div className="flex-1 px-2">
@@ -102,7 +102,7 @@ function Contact() {
                                         placeholder="John"
                                         name="user_firstname"
                                         required
-                                        className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-2.5 mt-2 border rounded-lg placeholder-gray-600 bg-gray-900 text-gray-300 border-gray-700  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
 
@@ -113,7 +113,7 @@ function Contact() {
                                         placeholder="Doe"
                                         name="user_lastname"
                                         required
-                                        className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                        className="block w-full px-5 py-2.5 mt-2  border rounded-lg placeholder-gray-600 bg-gray-900 text-gray-300 border-gray-700  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     />
                                 </div>
                             </div>
@@ -124,7 +124,7 @@ function Contact() {
                                     placeholder="johndoe@example.com"
                                     name="user_email"
                                     required
-                                    className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    className="block w-full px-5 py-2.5 mt-2  border rounded-lg placeholder-gray-600 bg-gray-900 text-gray-300 border-gray-700  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                 />
                             </div>
                             <div className="w-full mt-4">
@@ -132,7 +132,7 @@ function Contact() {
                                 <textarea
                                     name="message"
                                     required
-                                    className="block resize-none w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                                    className="block resize-none w-full h-32 px-5 py-2.5 mt-2 border rounded-lg md:h-56 placeholder-gray-600 bg-gray-900 text-gray-300 border-gray-700  focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                                     placeholder="Message"
                                 ></textarea>
                             </div>
