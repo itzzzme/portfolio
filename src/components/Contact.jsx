@@ -86,7 +86,7 @@ function Contact() {
                                 <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
                                     {method.icon}
                                 </span>
-                                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">{method.title}</h2>
+                                <h2 className="mt-4 text-base font-medium text-white">{method.title}</h2>
                                 <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">{method.description}</p>
                                 <a href={method.link} target='_blank' rel="noopener noreferrer" className="mt-2 text-sm text-blue-500 dark:text-blue-400">{method.contact}</a>
                             </div>
