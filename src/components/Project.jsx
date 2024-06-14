@@ -1,27 +1,6 @@
 import { features } from '../data/constant';
 
 const Project = () => {
-    // const features = [
-    //     {
-    //         icon: <img src={Yoga} alt="" className='scale-200' />,
-    //         title: "Yoga Website",
-    //         desc: "The Yoga Website is a visually serene and user-friendly platform dedicated to yoga enthusiasts. Featuring intuitive navigation, class schedules, and seamless booking capabilities. Responsive and engaging, it aims to foster community and wellness through accessible digital experiences.",
-    //         techs: ["ReactJs", "TailwindCSS", "ExpressJs"]
-    //     },
-    //     {
-    //         icon: <img src={SpotifyLogo} alt="" />,
-    //         title: "Spotify API",
-    //         desc: "An unofficial Spotify API using RESTful principles with no rate limitations ensures seamless functionality akin to the official Spotify API. This custom API offers developers unrestricted access to Spotify's vast music library, artist information, playlists, and user data retrieval",
-    //         techs: ["NodeJs", "Vercel", "ExpressJs", "Axios"]
-    //     },
-    //     {
-    //         icon: <img src={AnimeApiLogo} alt="" />,
-    //         title: "Anime API",
-    //         desc: "This API I serves as a centralized resource for detailed information on various anime titles, genres, release dates, ratings, and more. It offers seamless integration into applications and websites, providing robust functionality to enhance user experiences with anime-related content.",
-    //         techs: ["NodeJs", "Vercel", "ExpressJs", "Axios"]
-    //     },
-    // ];
-
     return (
         <section id="project" className="relative py-12 bg-gray-900">
             <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-t from-transparent to-gray-900"></div>
