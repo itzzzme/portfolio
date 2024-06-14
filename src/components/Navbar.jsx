@@ -96,7 +96,7 @@ const Navbar = () => {
               </li>
             ))}
             <li className="hidden max-md:inline-block">
-              <a href={resumePDF} className="pb-6 px-4 text-white hover:bg-indigo-700 rounded-md shadow" download>
+              <a href={resumePDF} className="pb-6 px-4 text-white" download>
                 Get my CV
               </a>
             </li>
