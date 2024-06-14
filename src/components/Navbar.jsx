@@ -43,10 +43,6 @@ const Navbar = () => {
       if (!foundSection && scrollPosition < sections[0].offsetTop) {
         setCurrentSection('#home');
       }
-
-      // Debug logs
-      // console.log('Scroll Position:', scrollPosition);
-      // console.log('Current Section:', currentSection);
     };
 
     handleScroll(); // Initial call to handle scroll position
@@ -88,7 +84,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className={`flex-1 justify-center items-center mt-8 md:flex md:justify-center md:mt-0 ${state ? 'block' : 'hidden'}`}>
-          <ul className="flex flex-col items-center space-y-8 md:flex-row md:space-x-3 md:space-y-0 bg-gray-900 py-3 px-1 mr-14 rounded-3xl">
+          <ul className={`flex flex-col items-center space-y-8 md:flex-row md:space-x-3 md:space-y-0 bg-gray-900 py-3 px-1 mr-14 rounded-3xl ${state ? 'w-full' : ''}`}>
             {navigation.map((item, idx) => (
               <li key={idx} className="text-gray-100 hover:text-blue-400">
                 <a
@@ -99,6 +95,11 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
+            <li className="hidden max-md:inline-block">
+              <a href={resumePDF} className="pb-6 px-4 text-white hover:bg-indigo-700 rounded-md shadow" download>
+                Get my CV
+              </a>
+            </li>
           </ul>
         </div>
         <div className="hidden md:inline-block">
