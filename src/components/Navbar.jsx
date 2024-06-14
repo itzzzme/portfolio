@@ -93,7 +93,7 @@ const Navbar = () => {
               <li key={idx} className="text-gray-100 hover:text-blue-400">
                 <a
                   href={item.path}
-                  className={`block py-2 px-4 transition-colors duration-300 ${currentSection === item.path ? 'bg-gray-800 rounded-xl' : ''}`}
+                  className={`block py-2 px-4 transition-all duration-1000 ease-in-out ${currentSection === item.path ? 'bg-gray-800 rounded-xl' : ''}`}
                 >
                   {item.title}
                 </a>
