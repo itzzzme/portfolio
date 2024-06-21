@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body,html {
-  max-width: 1536px;
+html,body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
