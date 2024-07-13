@@ -3,19 +3,22 @@ import SpotifyLogo from '../assets/spotify_api.jpg';
 import AnimeApiLogo from '../assets/anime_api.png';
 
 export const features = [
-    {
+    {   
+        link: "https://github.com/itzzzme/",
         icon: Yoga,
         title: "Yoga Website",
         desc: "The Yoga Website is a visually serene and user-friendly platform dedicated to yoga enthusiasts. Featuring intuitive navigation, class schedules, and seamless booking capabilities. Responsive and engaging, it aims to foster community and wellness through accessible digital experiences.",
         techs: ["ReactJs", "TailwindCSS", "ExpressJs"]
     },
     {
+        link:"https://github.com/itzzzme/spotify-api",
         icon: SpotifyLogo,
         title: "Spotify API",
         desc: "An unofficial Spotify API using RESTful principles with no rate limitations ensures seamless functionality akin to the official Spotify API. This custom API offers developers unrestricted access to Spotify's vast music library, artist information, playlists, and user data retrieval",
         techs: ["NodeJs", "Vercel", "ExpressJs", "Axios"]
     },
-    {
+    { 
+        link: "https://github.com/itzzzme/anime-api",
         icon: AnimeApiLogo,
         title: "Anime API",
         desc: "This API I serves as a centralized resource for detailed information on various anime titles, genres, release dates, ratings, and more. It offers seamless integration into applications and websites, providing robust functionality to enhance user experiences with anime-related content.",
