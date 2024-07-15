@@ -1,6 +1,6 @@
-import Yoga from '../assets/yoga-site.png';
-import SpotifyLogo from '../assets/spotify_api.jpg'; 
-import AnimeApiLogo from '../assets/anime_api.png';
+import Yoga from '../assets/yoga-site.webp';
+import SpotifyLogo from '../assets/spotify_api.webp'; 
+import AnimeApiLogo from '../assets/anime_api.webp';
 
 export const features = [
     {   
