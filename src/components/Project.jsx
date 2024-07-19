@@ -2,7 +2,7 @@ import { features } from '../data/constant';
 
 const Project = () => {
     return (
-        <section id="project" className="relative py-12 bg-gray-900">
+        <section id="project" className="mt-[-1px] relative py-12 bg-gray-900">
             <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-t from-transparent to-gray-900"></div>
             <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-400 md:px-8">
                 <div className="max-w-3xl mx-auto relative">

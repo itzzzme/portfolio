@@ -47,7 +47,7 @@ const SkillImage = styled.img`
 
 const Skills = () => {
     return (
-        <section id="skills" className="relative py-5 bg-gray-900">
+        <section id="skills" className="mt-[-1px] relative py-5 bg-gray-900">
             <div className="absolute top-0 left-0 w-full h-32 bg-gradient-to-t from-transparent to-gray-900"></div>
             <div className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px]" style={{ background: "linear-gradient(152.92deg, rgba(192, 132, 252, 0.2) 4.54%, rgba(232, 121, 249, 0.26) 34.2%, rgba(192, 132, 252, 0.1) 77.55%)" }}></div>
             <div className="max-w-screen-xl mx-auto px-4 text-center text-gray-400 md:px-8">
