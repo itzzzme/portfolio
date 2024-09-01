@@ -1,14 +1,14 @@
-import Yoga from '../assets/yoga-site.webp';
+import hls from '../assets/hls_proxy.webp';
 import SpotifyLogo from '../assets/spotify_api.webp'; 
 import AnimeApiLogo from '../assets/anime_api.webp';
 
 export const features = [
     {   
-        link: "https://github.com/itzzzme/",
-        icon: Yoga,
-        title: "Yoga Website",
-        desc: "The Yoga Website is a visually serene and user-friendly platform dedicated to yoga enthusiasts. Featuring intuitive navigation, class schedules, and seamless booking capabilities. Responsive and engaging, it aims to foster community and wellness through accessible digital experiences.",
-        techs: ["ReactJs", "TailwindCSS", "ExpressJs"]
+        link: "https://github.com/itzzzme/m3u8proxy",
+        icon: hls,
+        title: "HLS proxy server",
+        desc: "Developed an M3U8 HLS proxy server to handle CORS errors for video streaming applications. This server dynamically fetches and serves M3U8 files, ensuring seamless playback and compatibility with media players while addressing CORS issues.",
+        techs: ["Nodejs", "Axios", "ExpressJs"]
     },
     {
         link:"https://github.com/itzzzme/spotify-api",
