@@ -32,7 +32,7 @@ const Project = () => {
                                     </div>
                                     <h4 className="text-lg text-white font-semibold">{item.title}</h4>
                                     <p className="text-left text-gray-300">{item.desc}</p>
-                                    <ul className="flex flex-wrap justify-start items-center gap-2">
+                                    <ul className="flex flex-wrap justify-start items-center gap-2 mt-4">
                                         {item.techs.map((tech, index) => (
                                             <li
                                                 key={index}
