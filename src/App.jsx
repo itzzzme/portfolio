@@ -1,6 +1,5 @@
 import './App.css'
 import HeroSection from './components/HeroSection'
-// import Project from './components/Project'
 import  Project  from './components/Project'
 import Navbar from './components/Navbar'
 import Contact from './components/Contact'
@@ -12,8 +11,8 @@ function App() {
     <>
       <Navbar/>
       <HeroSection />
-      <Skills/>
       <Project/>
+      <Skills/>
       <Contact/>
       <Footer/>
     </>
