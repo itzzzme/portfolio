@@ -11,8 +11,8 @@ function App() {
     <>
       <Navbar/>
       <HeroSection />
-      <Project/>
       <Skills/>
+      <Project/>
       <Contact/>
       <Footer/>
     </>
