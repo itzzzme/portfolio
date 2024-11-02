@@ -16,7 +16,7 @@ const Project = () => {
                         {features.map((item, idx) => (
                             <li
                                 key={idx}
-                                className="space-y-3 p-8"
+                                className="px-8 py-5"
                                 style={{
                                     backgroundColor: "rgba(17, 25, 40, 0.2)",
                                     backdropFilter: "blur(16px) saturate(180%)",
@@ -26,9 +26,9 @@ const Project = () => {
                                     borderRadius: "12px",
                                 }}
                             >
-                                <a href={item.link} className="block h-full w-full">
-                                    <div className="w-full mx-auto text-indigo-600 rounded-full flex items-center justify-center">
-                                        <img src={item.icon} alt="" />
+                                <a href={item.link} className="flex h-full w-full flex-col gap-y-2">
+                                    <div className="w-full h-[180px] mx-auto text-indigo-600 rounded-full flex items-center justify-center">
+                                        <img src={item.icon} alt="" className='w-full h-full object-cover'/>
                                     </div>
                                     <h4 className="text-lg text-white font-semibold">{item.title}</h4>
                                     <p className="text-left text-gray-300">{item.desc}</p>

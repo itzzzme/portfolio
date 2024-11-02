@@ -1,29 +1,29 @@
-import hls from '../assets/hls_proxy.webp';
-import SpotifyLogo from '../assets/spotify_api.webp'; 
-import AnimeApiLogo from '../assets/anime_api.webp';
+import streamingLogo from "../assets/anime_streaming.webp";
+import SpotifyLogo from "../assets/spotify_api.webp";
+import AnimeApiLogo from "../assets/anime_api.webp";
 
 export const features = [
-    {   
-        link: "https://github.com/itzzzme/m3u8proxy",
-        icon: hls,
-        title: "HLS proxy server",
-        desc: "Developed an M3U8 HLS proxy server to handle CORS errors for video streaming applications. This server dynamically fetches and serves M3U8 files, ensuring seamless playback and compatibility with media players while addressing CORS issues.",
-        techs: ["Nodejs", "Axios", "ExpressJs"]
-    },
-    {
-        link:"https://github.com/itzzzme/spotify-api",
-        icon: SpotifyLogo,
-        title: "Spotify API",
-        desc: "An unofficial Spotify API using RESTful principles with no rate limitations ensures seamless functionality akin to the official Spotify API. This custom API offers developers unrestricted access to Spotify's vast music library, artist information, playlists, and user data retrieval",
-        techs: ["NodeJs", "Vercel", "ExpressJs", "Axios"]
-    },
-    { 
-        link: "https://github.com/itzzzme/anime-api",
-        icon: AnimeApiLogo,
-        title: "Anime API",
-        desc: "This API I serves as a centralized resource for detailed information on various anime titles, genres, release dates, ratings, and more. It offers seamless integration into applications and websites, providing robust functionality to enhance user experiences with anime-related content.",
-        techs: ["NodeJs", "Vercel", "ExpressJs", "Axios"]
-    },
+  {
+    link: "https://github.com/itzzzme/zenime",
+    icon: streamingLogo,
+    title: "Anime streaming platform",
+    desc: "Developed an AD free anime streaming platform where user can search their favorite animes and can get comprehensive information about any anime, including synopses, ratings, and all available seasons & also can stream animes without any hassle",
+    techs: ["React.JS", "Cloudflare", "Node.Js", "Firebase"],
+  },
+  {
+    link: "https://github.com/itzzzme/spotify-api",
+    icon: SpotifyLogo,
+    title: "Spotify API",
+    desc: "An unofficial Spotify API using RESTful principles with no rate limitations ensures seamless functionality akin to the official Spotify API. This custom API offers developers unrestricted access to Spotify's vast music library, artist information, playlists, and user data retrieval",
+    techs: ["NodeJs", "Vercel", "ExpressJs", "Axios"],
+  },
+  {
+    link: "https://github.com/itzzzme/anime-api",
+    icon: AnimeApiLogo,
+    title: "Anime API",
+    desc: "This API serves as a centralized resource for detailed information on various anime titles, genres, release dates, ratings, and more. It offers seamless integration into applications and websites, providing robust functionality to enhance user experiences with anime-related content.",
+    techs: ["NodeJs", "Vercel", "Hono.Js", "Axios"],
+  },
 ];
 
 export const skills = [
@@ -52,7 +52,7 @@ export const skills = [
       {
         name: "Next Js",
         image:
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
       },
       {
         name: "Redux",
