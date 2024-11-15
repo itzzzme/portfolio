@@ -27,8 +27,8 @@ function Contact() {
             ),
             title: 'Email',
             description: 'Connect with me through email',
-            contact: 'sayandas.dev@gmail.com',
-            link: 'mailto:sayandas.dev@gmail.com',
+            contact: 'sayandas.devs@gmail.com',
+            link: 'mailto:sayandas.devs@gmail.com',
         },
         {
             icon: (
