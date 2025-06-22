@@ -62,7 +62,7 @@ function Contact() {
             <div className='absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px] max-sm:hidden' style={{ background: "linear-gradient(106.89deg, rgba(192, 132, 252, 0.11) 15.73%, rgba(14, 165, 233, 0.41) 15.74%, rgba(232, 121, 249, 0.26) 56.49%, rgba(79, 70, 229, 0.4) 115.91%)", }}></div>
             <div className="max-w-screen-xl mx-auto px-4 text-center container relative z-10">
                 <div>
-                    <h1 className="text-indigo-400 text-5xl font-bold max-sm:text-3xl">Contact us</h1>
+                    <h1 className="text-indigo-400 text-5xl font-bold max-sm:text-3xl">Contact me</h1>
                     <h1 className="mt-5 text-2xl font-semibold text-white md:text-3xl">
                     Start a chat with me anytime 
                     </h1>
